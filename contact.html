@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content="with=device-width, initial-scale=1.0">
+        <title>JM-2 CAR AIRCON AND MUFFLER SERVICES</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel=<link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+    </head>
+    <body>
+        <section class = "sub-header">
+            <nav>
+                <a href="index.html"><img src="images/jm2w.png"</a>
+                <div class="nav-links" id="navLinks">
+                    <i class="far fa-window-close fa-lg" onclick="hideMenu()"></i>
+                    <ul>
+
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="location.html">LOCATION</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Contact Us</h1>
+        </section>
+        <!-- contact us -->
+        
+
+            <section class="contacts-us">
+
+                <div class="row">
+                    <div class ="contacts-col">
+                        <div>
+                            <i class="fas fa-home"></i>
+                            <span>
+                                <h5>501 Molino 3, Avenida Rizal St.</h5>
+                                <p>Bahayang pag-asa, Bacoor, Cavite</p>
+                        </span>
+                        </div>
+                    <div>
+                        <i class="fas fa-phone"></i>
+                        <span>
+                            <h5>09999923822</h5>
+                            <p>Open Everyday, 7am to 6pm</p>
+                    </span>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        <span>
+                            <h5>jm2caraircon@gmail.com</h5>
+                            <p>Email us your query</p>
+                    </span>
+                    </div>
+                </div>
+                    <div class ="contacts-col">
+
+                        <form action="form-handler.php" method="post">
+                            <input type="text" name ="name" placeholder="Enter Name" required>
+                            <input type="email" name="email" placeholder="Enter E-mail address" required>
+                            <input type="text" name="subject" placeholder="Enter Subject" required>
+                            <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                            <button type="submit" class="hero-btn btn">Send Message</button>
+                        </form>
+                    </div>
+                        </div>
+            </section>
+
+        <section class="footer">
+                <div>
+                    <h4>Like and follow us on our Social Media accounts</h4>
+                    <p>We would also love to hear from you! Send us a feedback to our social media accounts.</p>
+                    <div class="icons">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <p>Marlou Pagarao</p>
+
+        <!-- javascript for toggle menu -->
+                <script>
+                    var navLinks = document.getElementById("navLinks");
+
+                    function showMenu(){
+                        navLinks.style.right = "0";
+                    }
+                    function hideMenu(){
+                        navLinks.style.right = "-200px";
+                    }
+                </script>
+    </body>
+</html>

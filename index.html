@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content="with=device-width, initial-scale=1.0">
+        <title>JM-2 CAR AIRCON AND MUFFLER SERVICES</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel=<link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+    </head>
+    <body>
+        <section class = "header">
+            <nav>
+                <a href="index.html"><img src="images/jm2w.png"</a>
+                <div class="nav-links" id="navLinks">
+                    <i class="far fa-window-close fa-lg" onclick="hideMenu()"></i>
+                    <ul>
+
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="location.html">LOCATION</a></li>
+
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+    <div class = "text-box">
+        <h1>JM-2 Car Aircon and Muffler Services</h1>
+        <p>Automotive Repair Shop · Automotive Body Shop · Motor Vehicle Company<br>Visit us today to book an appointment or for a free estimate!</p>
+        <p><br></p>
+
+        <a href="contact.html"class="hero-btn">Contact us!</a>
+
+    </div>
+        </section>
+        <!-- contact -->
+        <section>
+            <section class = "contact">
+                <h1>Contact Numbers</h1>
+                <p>You can reach us at the ff.</p>
+
+                <div class = "row">
+                    <div class  = "contact-col">
+                        <h3>Cellphone and Telephone</h3>
+                        <p><b>Joel Pagarao</b><br>Smart:09999923822<br>Globe:09152906513</p>
+                    </div>
+                    <div class  = "contact-col">
+                        <h3>Social Media Accounts</h3>
+                        <p><b>Facebook</b><br>JM-2 Car Aircon & Muffler Services<br></p>
+                    </div>
+                    <div class  = "contact-col">
+                        <h3>Location</h3>
+                        <p><b>Main Branch</b><br>Bahayang Pag-asa <br><b>Other Branches</b><br>Daang Hari Rd.</p>
+                    </div>
+                </div>
+
+        </section>
+
+        <section class="services">
+        <h1>Services</h1>
+        <p>Check out the services that we offer!</p>
+        <div class="row">
+            <div class="services-col">
+                <img src="images/muff.jpg">
+                <div class="layer">
+                    <h3>MUFFLER</h3>
+                </div>
+            </div>
+            <div class="services-col">
+                <img src="images/repaint.jpg">
+                <div class="layer">
+                    <h3>REPAINT</h3>
+                </div>
+            </div>
+            <div class="services-col">
+                <img src="images/wash.jpg">
+                <div class="layer">
+                    <h3>WASHOVER</h3>
+                </div>
+            </div>
+        </div>
+        <!-- other services -->
+        <section class = "other">
+            <h1>Other Services we Offer</h1>
+            <div class="row">
+                <div class="other-col">
+                    <img src="images/aircon.jpg">
+                    <h3>Aircon Services</h3>
+                    <p>We offer any aircon services</p>
+                </div>
+                <div class="other-col">
+                    <img src="images/headunit.jpg">
+                    <h3>Stereo</h3>
+                    <p>We offer head unit upgrade and other sound upgrades</p>
+                </div>
+                <div class="other-col">
+                    <img src="images/oil.jpg">
+                    <h3>Engine and other maintenance</h3>
+                    <p>Change oil,overhaul,tune-up </p>
+                </div>
+            </div>
+        </section>
+        <section class ="reviews">
+            <h1>Customer Reviews</h1>
+            <p>Check out what our customers has to say to our services!</p>
+            <div class="row">
+                <div class="reviews-col">
+                    <img src = "images/rev2.jpg">
+                    <div>
+                        <p>nice work for my eclipse &  owner's gives suggestion  what is better.. affordable..thanks</p>
+                        <h3>Jonathan Tabirao</h3>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="reviews-col">
+                    <img src = "images/rev1.jpg">
+                    <div>
+                        <p>Had my Honda Accord 96 engine changed by these professionals... good work as always! Awesome ❤ Highly recommended!!!</p>
+                        <h3>Shampoo Padilla</h3>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class = "cta">
+            <h1>Contact us today for a free estimate!</h1>
+            <p><br></p>
+            <a href=""class="hero-btn">Contact Us</a>
+        </section>
+
+        <section class="footer">
+                <div>
+                    <h4>Like and follow us on our Social Media accounts</h4>
+                    <div class="icons">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <p>Marlou Pagarao</p>
+
+        <!-- javascript for toggle menu -->
+                <script>
+                    var navLinks = document.getElementById("navLinks");
+
+                    function showMenu(){
+                        navLinks.style.right = "0";
+                    }
+                    function hideMenu(){
+                        navLinks.style.right = "-200px";
+                    }
+                </script>
+    </body>
+</html>
